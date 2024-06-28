@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Dipa Inhouse</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            padding: 20px 20px; /* Menambahkan padding vertikal untuk membuat navbar lebih tinggi */
+            background-color: white;
+            border-bottom: 1px solid #dcdcdc;
+        }
+        .navbar-brand img {
+            width: 50px;
+            height: 50px;
+        }
+        .navbar-nav .nav-item {
+            margin: 0 10px; /* Menambahkan margin untuk memberikan jarak antar elemen navbar */
+        }
+        .header {
+            text-align: left;
+            padding: 150px 0;
+        }
+        .header-container {
+            margin-left: 70px;
+            text-align: left;
+            max-width: 700px;
+        }
+        .header h1 {
+            font-size: 48px;
+            font-weight: bold;
+            color: #212529;
+        }
+        .header p {
+            font-size: 18px;
+            color: #6c757d;
+            margin-bottom: 20px;
+        }
+        .btn-primary, .btn-outline-primary {
+            border-radius: 50px;
+            padding: 10px 30px;
+            font-size: 16px;
+        }
+        .btn-primary {
+            margin-right: 10px;
+        }
+        .anu{
+            margin-left: 50px;
+        }
+
+        /* Media query for mobile devices */
+        @media (max-width: 576px) {
+            .header-container {
+                margin-left: 0;
+                text-align: center;
+            }
+            .header {
+                padding: 100px 20px;
+            }
+            .header h1 {
+                font-size: 36px;
+            }
+            .header p {
+                font-size: 16px;
+            }
+            .btn-primary, .btn-outline-primary {
+                display: block;
+                width: 100%;
+                margin: 10px 0;
+                padding: 15px 0;
+            }
+        }
+        h1{
+            font-size: 6rem;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="anu">
+    <a class="navbar-brand" href="#"><img src="logo.png" alt="Logo"></a>
+</div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Work</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Insight</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Career</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-primary" href="#">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Header Section --> 
+<div class="header">
+    <div class="header-container">
+        <h1>Crafting user friendly products aesthetically</h1><br>
+        <p>Help find solutions that are intuitive and in accordance with client business goals. We provide a high-quality service in UI/UX Design, Graphic Design, Motion Design, Branding & Development.</p>
+        <a href="#" class="btn btn-primary">Let's connect</a>
+        <a href="#" class="btn btn-outline-primary">Check our work</a>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
